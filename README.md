@@ -15,3 +15,7 @@ Then:
 mkdir -p src/main/webapp/WEB-INF/classes/
 unzip derby-foodmart.zip -d src/main/webapp/WEB-INF/classes/
 ```
+
+## Running
+Given a good JAVA_HOME
+run ```mvn clean compile exec:java```
